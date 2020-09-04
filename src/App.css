@@ -1,38 +1,381 @@
-.App {
+.bg-light {
+  background-color: #fabb05!important;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.navbar-light .navbar-brand {
+  color: #117a8b;
+  font-size: 22px;
+  font-weight: 900;
+}
+.slider{
+  width: 100%;
+  height: 440px;
+  background-size: cover;
+}
+.slide-title{
   text-align: center;
+  font-size: 37px;
+  color: #03310d;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.slide{
+  padding: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slide-text{
+  text-align: center !important;
+  font-size: 22px;
+  padding: 10px;
+  font-weight: 400;
+  color: #425646;
+  text-transform: capitalize;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+#footer {
+  background: #000 !important;
+}
+#footer h5{
+padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color:#ffffff;
+}
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li {
+  background: #cc9700;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+#footer ul.social li a i {
+  padding: 10px;
+  font-size: 16px;
+  transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+/* font-size:30px;
+margin-top:-10px; */
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+color:#ffffff;
+}
+#footer ul.social li a:hover{
+color:#eeeeee;
+}
+.footer-menu p a{
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footer-menu p a span{
+  padding: 0px 3px;
+}
+
+.copyright{
+  font-size: 12px;;
+}
+.loginfrom{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+.card{
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0,0,0,0.5) !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  .social_icon span{
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+  }
+  
+  .social_icon span:hover{
   color: white;
+  cursor: pointer;
+  }
+  
+  .card-header h3{
+  color: white;
+  }
+  
+  .social_icon{
+  position: absolute;
+  right: 20px;
+  top: -45px;
+  }
+  
+  .input-group-prepend span{
+  width: 50px;
+  background-color: #FFC312;
+  color: black;
+  border:0 !important;
+  }
+  
+  input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+  
+  }
+  
+  .remember{
+  color: white;
+  }
+  
+  .remember input
+  {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+  }
+  
+  .login_btn{
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+  }
+  
+  .login_btn:hover{
+  color: black;
+  background-color: white;
+  }
+  
+  .links{
+  color: white;
+  }
+  
+  .links a{
+  margin-left: 4px;
+  }
+
+  .mr-t-20{
+    margin-top: 20px;
+  }
+  .welcome{
+    color: #fabb05;
+    text-align: center;
+    margin-top: 77px;
+ 
+  }
+
+  .welcome h4{
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .welcome h3{
+    color: #fabb05;
+  }
+  .welcome span{
+    font-size: 31px;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+  .bg{
+    height: 100%;
+    background-color: rgba(0,0,0,0.4) !important;
+  }
+  .register{
+    height: 600px !important;
+  }
+  .reg-card{
+    width: 430px;
+    height:515px;
+  }
+  .pd-lr-15{
+    padding:0px 15px;
+  }
+  .profile{
+    background:rgb(255 251 251);
+    height: 100%;
+    width: 100%;
+  }
+  .profile-sidebar{
+    margin:25px 0px;
+    background: #fff;
+    box-shadow: 1px 1px 5px 5px #f5eded;
+    max-height: 580px;
+  }
+
+  .profile-header{
+    background: #d1f3d8;
+    margin: 13px 0px;
+    border-radius: 6px;
+    
+     
+  }
+
+  .profile-header img{
+    
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+  }
+  .profile-menu .title{
+    text-align: center;
+  }
+  .profile-menu .designation{
+    text-align: center;
+  }
+  .profile-menu-style ul  {
+    width: 100%;
+    padding: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+
+  .profile-menu-style ul li {
+    text-align: left;
+    list-style: none;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 3px 0px;
+    background: #fdfdfd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-menu-style ul li a {
+  color: #000;
+  text-decoration: none;
+  width: 100%;
 }
+
+.profile-menu-style ul li a:hover{
+  font-weight:500;
+}
+.social-icon i{
+  padding: 0px 20px;
+  margin: 0px 0px 26px 26px;
+}
+
+.social-icon .fa-facebook{
+  background: cornflowerblue;
+  color: #fff;
+  padding: 10px 14px;
+  height: 35px;
+  width: 35px;
+  border-radius: 2px;
+}
+
+.social-icon .fa-google{
+  background: #ed6464;
+  color: #fff;
+  padding: 10px 12px;
+  height: 35px;
+  width: 35px;
+  border-radius: 2px;
+}
+
+.social-icon .fa-twitter{
+  background: cornflowerblue;
+  color: #fff;
+  padding: 10px 12px;
+  height: 35px;
+  width: 35px;
+  border-radius: 2px;
+}
+.social-icon  .fa-youtube{
+  background: #fd2323;
+  color: #fff;
+  padding: 10px 12px;
+  height: 35px;
+  width: 35px;
+  border-radius: 2px;
+}
+
+.profile-dashboard{
+  background: #fff;
+  width: 100%;
+  margin: 25px 0px;
+}
+.course-package{
+  margin: 0px 0px;
+}
+.course-package-video{
+  background: #e9fff9;
+  height: 220px;
+  width: 100%;
+  border-radius: 4px;
+}
+.mar-rl-0{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.course-package-video iframe{
+  border-radius: 5px;
+}
+.course-package .title{
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  padding: 9px 0px;
+}
+.course-package p{
+  padding: 0px 11px;
+}
+
+.border{
+  border: 0px solid #ddd !important;
+  margin: 14px 0px;
+  padding: 5px;
+  border-radius: 4px;
+  background: #fafffa;
+  box-shadow: 1px 1px 5px 5px #f5eded;
+
+}
+.hours{
+  float: right;
+  color: cornflowerblue;
+}
+.pad-l-4{
+  padding-left: 4px;
+}
+
+.pad-r-4{
+  padding-right: 4px;
+}
+
+.success-msg{
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+}
+.nav-link{
+  cursor: pointer;
+}
+.nav-dashboard{
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 1px !important;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.row-pad{
+  padding: 0px 15px 24px 0px;
+}
+  
